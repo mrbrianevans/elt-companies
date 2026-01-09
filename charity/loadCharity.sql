@@ -5,6 +5,9 @@ FROM
   community;
 LOAD zipfs;
 
+CREATE SCHEMA charity_raw;
+USE charity_raw;
+
 .timer on
 
 CREATE OR REPLACE TABLE charity_raw AS (
@@ -112,3 +115,7 @@ CREATE OR REPLACE TABLE charity_trustee_raw AS (
 .print "Loaded charity_trustee_raw"
 
 .print "All charity raw tables loaded successfully"
+
+-- this improves query performance during the transformation phase since everything references this
+ALTER TABLE charity_raw ADD PRIMARY KEY(organisation_number);
+.print "Created primary key on charity_raw table"

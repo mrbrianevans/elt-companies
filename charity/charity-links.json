@@ -1,0 +1,54 @@
+[
+  {
+    "id": "download_charity-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity.zip"
+  },
+  {
+    "id": "download_charity_annual_return_history-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_annual_return_history.zip"
+  },
+  {
+    "id": "download_charity_annual_return_parta-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_annual_return_parta.zip"
+  },
+  {
+    "id": "download_charity_annual_return_partb-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_annual_return_partb.zip"
+  },
+  {
+    "id": "download_charity_area_of_operation-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_area_of_operation.zip"
+  },
+  {
+    "id": "download_charity_classification-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_classification.zip"
+  },
+  {
+    "id": "download_charity_event_history-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_event_history.zip"
+  },
+  {
+    "id": "download_charity_governing_document-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_governing_document.zip"
+  },
+  {
+    "id": "download_charity_other_names-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_other_names.zip"
+  },
+  {
+    "id": "download_charity_other_regulators-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_other_regulators.zip"
+  },
+  {
+    "id": "download_charity_policy-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_policy.zip"
+  },
+  {
+    "id": "download_charity_published_report-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_published_report.zip"
+  },
+  {
+    "id": "download_charity_trustee-json",
+    "href": "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity_trustee.zip"
+  }
+]

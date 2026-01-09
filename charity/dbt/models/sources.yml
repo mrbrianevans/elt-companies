@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: charities
+    description: Charity data sources
+    schema: charity_raw
+    tables:
+      - name: charity_raw
+        description: Charity main data table

@@ -5,7 +5,7 @@ FROM
   community;
 LOAD zipfs;
 
-CREATE SCHEMA charity_raw;
+CREATE SCHEMA IF NOT EXISTS charity_raw;
 USE charity_raw;
 
 .timer on

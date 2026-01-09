@@ -1,7 +1,7 @@
 -- destination schema of transformed data
 CREATE SCHEMA charity_mart;
 
-
+-- source schema of raw loaded data
 USE charity_raw;
 -- TODO: add joins for other source tables to enrich this view
 
@@ -44,4 +44,4 @@ SELECT date_of_extract::DATE AS date_of_extract,
        charity_gift_aid,
        charity_has_land
 FROM charity_raw
-WHERE linked_charity_number = 0 ;
+WHERE linked_charity_number = 0;

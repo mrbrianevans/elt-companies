@@ -1,0 +1,9 @@
+charity_duckdb:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '../charity.db'
+      extensions:
+        - parquet
+      settings:

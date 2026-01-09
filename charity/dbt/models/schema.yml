@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: charities
+    description: A comprehensive view of charities data
+
+    columns:
+      - name: organisation_number
+        description: This is a unique identifier for a charity
+        tests:
+          - unique
+          - not_null
